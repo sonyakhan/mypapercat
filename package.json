@@ -21,7 +21,7 @@
   },
 
   "scripts": {
-    "start": "gulp dev"
+    "start": "node script.js"
   },
 
   "repository": {
