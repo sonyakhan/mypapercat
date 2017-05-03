@@ -6,6 +6,15 @@
     "type": "MIT",
     "url": "https://mypapercat.herokuapp.com/"
   },
+  "dependencies": {
+    "gulp-clean-css": "^2.0.10",
+    "gulp-header": "^1.8.7",
+    "gulp-less": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^1.5.4"
+  },
+
   "devDependencies": {
     "angular": "~1.2.25",
     "angular-route": "~1.2.25",
