@@ -1,0 +1,278 @@
+/*!
+ * Start Bootstrap - mypapercat v3.3.7+1 ()
+ * Copyright 2013-2017 
+ * Licensed under MIT (https://mypapercat.herokuapp.com/)
+ */
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 12px !important;
+}
+.container-fluid {
+  padding: 0 !important;
+}
+.row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+@media (min-width: 768px) {
+  .affix {
+    position: fixed;
+  }
+}
+@media (min-width: 979px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+}
+.dropdown-toggle {
+  background-color: white !important;
+}
+h3 {
+  display: inline-block;
+  margin-top: 0px !important;
+}
+.group {
+  display: inline-block;
+}
+/* Collapsing Navbar Styles */
+@media (min-width: 768px) {
+  .navbar-default {
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+    padding: 15px 0;
+    /* Add additional styles here for the UNCOLLAPSED state */
+  }
+  .navbar-default.affix {
+    padding: 0;
+    /* Add additional styles here for the COLLAPSED state */
+  }
+}
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand > img {
+  height: 100%;
+  padding: 10px;
+  width: auto;
+}
+li > a {
+  font-size: 14px !important;
+}
+@media only screen and (min-width: 992px) {
+  .navbar-logo {
+    height: 80% !important;
+    width: auto !important;
+    margin-top: 5px;
+  }
+  .enlargen {
+    font-size: 16px !important;
+  }
+  .portfolio-padding {
+    margin-top: 80px;
+  }
+}
+.navbar-default {
+  background-color: white !important;
+  border-color: white !important;
+}
+.dropdown-menu {
+  box-shadow: none !important;
+  border: none !important;
+}
+.grid-top {
+  margin-top: 130px;
+}
+@media only screen and (max-width: 768px) {
+  .grid-top {
+    margin-top: 100px;
+  }
+}
+.grid img {
+  max-width: 80% !important;
+  height: auto !important;
+}
+.col-margin {
+  margin-bottom: 52px;
+}
+.col-xs-12,
+.col-sm-4,
+.col-md-6 {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.jumbotron {
+  background-color: white !important;
+  height: 100vh;
+}
+.section {
+  margin: 100px 0;
+}
+.dark-panel {
+  background-color: #343434 !important;
+}
+.intro {
+  margin: 100px 0;
+  /* xs */
+  /* sm */
+  /* md */
+  /* lg */
+}
+.intro h1 {
+  margin: 50px 0;
+}
+.intro img {
+  width: 100px;
+  height: auto;
+}
+@media (min-width: 768px) {
+  .intro img {
+    width: 150px;
+  }
+}
+@media (min-width: 992px) {
+  .intro img {
+    width: 150px;
+  }
+}
+@media (min-width: 1200px) {
+  .intro img {
+    width: 150px;
+  }
+}
+.hover-image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.hover-container:hover .hover-image {
+  opacity: 0.15;
+}
+.hover-container:hover .middle {
+  opacity: 1;
+}
+.hover-text {
+  color: #4A4A4A;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+a {
+  color: #4A4A4A !important;
+  text-decoration: none !important;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+a:hover {
+  color: #32A6B3 !important;
+}
+.bold {
+  font-weight: 700;
+}
+.marvel-1 {
+  min-height: 100px !important;
+  height: 100vh;
+  background: url(../img/marvel/Marvel_05.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wrapper {
+  width: 100% !important;
+  z-index: 0 !important;
+}
+.box-shadow {
+  box-shadow: 0px 5px 5px #888888;
+}
+.cpu {
+  max-width: 70% !important;
+  height: auto !important;
+}
+.comic {
+  max-width: 70% !important;
+  height: auto !important;
+}
+.vid .col-md-6 {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.calendar {
+  margin-bottom: 0px !important;
+}
+.brand1 {
+  max-width: 70% !important;
+  height: auto !important;
+}
+.brand2 {
+  max-width: 30% !important;
+  height: auto !important;
+}
+.card {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  max-width: 30% !important;
+  height: auto !important;
+}
+.brochure {
+  max-width: 80% !important;
+  height: auto !important;
+}
+.wm {
+  max-width: 70% !important;
+  height: auto !important;
+}
+.about {
+  margin: 100px;
+}
+.color-text {
+  color: #32A6B3 !important;
+}
+.icons ul {
+  overflow: auto;
+}
+.icons ul li {
+  list-style-type: none;
+  float: left;
+}
+.icons ul li a i {
+  background: #205D7A;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 25px;
+  text-align: center;
+  margin-right: 10px;
+  padding-top: 15%;
+  transition: all 0.2s ease-in-out;
+}
+.icons .fa-facebook {
+  background: #3b5998;
+}
+.icons .fa-linkedin {
+  background: #007bb6;
+}
+.icons .fa-twitter {
+  background: #00aced;
+}
+.icons .google-plus {
+  background: #dd4b39;
+}
+.icons ul li a i:hover {
+  opacity: .7;
+}
