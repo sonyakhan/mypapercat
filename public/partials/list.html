@@ -1,0 +1,64 @@
+<div class="row">
+  <div class="medium-9 small-9 medium-offset-1 small-offset-1 columns">
+    <div class="text-center">
+      <h1>IMDb & Chill</h1>
+      <a href="#/">Search</a>
+      <span style="display: inline-block; width: 50px;"></span>
+      <a href="#/gallery">Gallery</a>
+    </div>
+    <form>
+      <div class="row">
+        <div class="medium-12 columns">
+          <label>Search
+            <input ng-model="searchText" type="text" placeholder="Search for a movie">
+          </label>
+        </div>
+        <div class="medium-12 columns">
+          <label>Filter
+            <select ng-model="sort">
+              <option ng-selected="true" value="rank">Rank</option>
+              <option value="title">Title</option>
+            </select>
+          </label>
+        </div>
+        <div class="medium-12 columns">
+          <legend>Sort</legend>
+          <div class="container">
+            <input ng-checked="true" type="radio" ng-model="order" value="">
+            Ascending
+            <span style="display: inline-block; width: 50px;"></span>
+            <input type="radio" ng-model="order" value="reverse">
+            Descending
+          </div>
+        </div>
+      </div>
+    </form>
+
+    <table>
+      <thead>
+      <tr>
+        <th class="text-center">Movie</th>
+        <th class="text-center">Description</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr ng-repeat="movie in movies | filter:searchText | orderBy:sort:order">
+        <td>
+          <a href= "#/list/{{movie.imdbID}}/{{movie.rank}}">
+            <img style="height: 200px;" ng-src="./data/images/{{movie.imdbID}}.jpg" alt="">
+          </a>
+        </td>
+        <td>
+          <a href= "#/list/{{movie.imdbID}}/{{movie.rank}}">
+            <b>{{ movie.title }}</b><br>
+          </a>
+            Rank: {{ movie.rank }}<br>
+            Rated: {{ movie.rated }}
+          </a>
+        </td>
+      </tr>
+      </tbody>
+    </table>
+
+  </div>
+</div>

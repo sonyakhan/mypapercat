@@ -24,12 +24,7 @@
   },
 
   "scripts": {
-    "start": "gulp dev",
-    "poststart": "npm prune --production"
-  },
-
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sonyakhan/mypapercat.git"
+    "postinstall": "bower install",
+    "start": "node app.js"
   }
 }
