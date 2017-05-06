@@ -69,9 +69,9 @@ joelApp.config(function($routeProvider) {
       controller  : 'blushController'
     })
 
-    .when('/netflix', {
-      templateUrl : 'pages/netflix.html',
-      controller  : 'netflixController'
+    .when('/alley', {
+      templateUrl : 'pages/alley.html',
+      controller  : 'alleyController'
     })
 
     .when('/wm', {
@@ -84,9 +84,9 @@ joelApp.config(function($routeProvider) {
       controller  : 'aceController'
     })
 
-    .when('/alley', {
-      templateUrl : 'pages/alley.html',
-      controller  : 'alleyController'
+    .when('/demo', {
+      templateUrl : 'pages/demo.html',
+      controller  : 'demoController'
     });
 });
 
@@ -138,8 +138,8 @@ joelApp.controller('blushController', function($scope) {
   $scope.message = 'blush';
 });
 
-joelApp.controller('netflixController', function($scope) {
-  $scope.message = 'netflix';
+joelApp.controller('alleyController', function($scope) {
+  $scope.message = 'alley';
 });
 
 joelApp.controller('wmController', function($scope) {
@@ -150,8 +150,8 @@ joelApp.controller('aceController', function($scope) {
   $scope.message = 'ace';
 });
 
-joelApp.controller('alleyController', function($scope) {
-  $scope.message = 'alley';
+joelApp.controller('demoController', function($scope) {
+  $scope.message = 'demo';
 });
 
 
